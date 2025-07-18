@@ -1,0 +1,18 @@
+/forex-bot/
+├── config/
+│   └── config.js
+├── controllers/
+│   ├── botController.js
+│   ├── tradingController.js
+│   └── newsController.js
+├── services/
+│   ├── exchangeService.js
+│   ├── indicatorService.js
+│   └── signalService.js
+├── utils/
+│   ├── helpers.js
+│   └── logger.js
+├── .env
+├── bot.js
+├── package.json
+└── README.md
