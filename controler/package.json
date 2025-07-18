@@ -1,0 +1,19 @@
+{
+  "name": "forex-trading-bot",
+  "version": "1.0.0",
+  "description": "Standalone Forex/XAUUSD Trading Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "ccxt": "^1.89.72",
+    "dotenv": "^16.0.1",
+    "node-telegram-bot-api": "^0.56.0",
+    "tulind": "^0.8.20"
+  },
+  "engines": {
+    "node": ">=14.x"
+  }
+}
